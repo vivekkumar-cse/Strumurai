@@ -29,7 +29,6 @@ const Navbar = () => {
               <Link className={location.pathname === '/' ? 'nav-link active text-warning fw-semibold' : 'nav-link'} to="/">Home</Link>
             </li>
 
-            {/* ✅ Modes Dropdown */}
             <li className="nav-item dropdown">
               <a
                 className="nav-link dropdown-toggle"

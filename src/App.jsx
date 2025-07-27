@@ -81,7 +81,7 @@ function App() {
   return (
     <Router>
       <Navbar />
-      <div style={{ paddingTop: "80px" }}> {/* Pushes all page content down below navbar */}
+      <div style={{ paddingTop: "80px" }}> 
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/about" element={<About />} />
